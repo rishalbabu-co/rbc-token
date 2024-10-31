@@ -1,0 +1,16 @@
+{
+  "name": "rbc-token",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js",
+    "verify": "hardhat verify",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "hardhat": "^2.19.4",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
